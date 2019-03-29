@@ -1,0 +1,58 @@
+<button (click)="mode = 0">flex: 1</button> <button (click)="mode = 1">flex: 1 1 0px</button> <button (click)="mode = 2">flex:
+  1 1 auto</button><button (click)="mode = 3">flex: 1 1 0%</button>
+<div style="width: 100%; height: 700px;">
+  <div [ngSwitch]="mode" style="display: flex; flex-direction: column; width: 100%; background-color: aquamarine">
+    <div *ngSwitchCase="0" style="flex: 1; overflow: hidden">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Nibh tellus molestie nunc non blandit massa enim. Diam volutpat commodo sed egestas egestas
+      fringilla phasellus faucibus scelerisque. Vulputate sapien nec sagittis aliquam. Ornare suspendisse sed nisi
+      lacus sed viverra tellus in. Blandit massa enim nec dui nunc. Ut etiam sit amet nisl purus in. Vestibulum lorem
+      sed risus ultricies tristique nulla aliquet enim tortor. Tellus cras adipiscing enim eu turpis. Proin fermentum
+      leo vel orci porta non pulvinar neque laoreet. Turpis cursus in hac habitasse platea dictumst quisque sagittis.
+      Ullamcorper malesuada proin libero nunc consequat. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Eu
+      lobortis elementum nibh tellus molestie nunc non blandit. Nullam ac tortor vitae purus. Nunc faucibus a
+      pellentesque sit amet porttitor eget dolor morbi. Elementum nibh tellus molestie nunc non blandit massa. Diam
+      maecenas sed enim ut sem viverra aliquet eget. Sit amet tellus cras adipiscing. Sit amet nisl purus in mollis
+      nunc sed. Sed vulputate mi sit amet mauris.
+    </div>
+    <div *ngSwitchCase="1" style="flex: 1 1 0px; overflow: hidden">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Nibh tellus molestie nunc non blandit massa enim. Diam volutpat commodo sed egestas egestas
+      fringilla phasellus faucibus scelerisque. Vulputate sapien nec sagittis aliquam. Ornare suspendisse sed nisi
+      lacus sed viverra tellus in. Blandit massa enim nec dui nunc. Ut etiam sit amet nisl purus in. Vestibulum lorem
+      sed risus ultricies tristique nulla aliquet enim tortor. Tellus cras adipiscing enim eu turpis. Proin fermentum
+      leo vel orci porta non pulvinar neque laoreet. Turpis cursus in hac habitasse platea dictumst quisque sagittis.
+      Ullamcorper malesuada proin libero nunc consequat. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Eu
+      lobortis elementum nibh tellus molestie nunc non blandit. Nullam ac tortor vitae purus. Nunc faucibus a
+      pellentesque sit amet porttitor eget dolor morbi. Elementum nibh tellus molestie nunc non blandit massa. Diam
+      maecenas sed enim ut sem viverra aliquet eget. Sit amet tellus cras adipiscing. Sit amet nisl purus in mollis
+      nunc sed. Sed vulputate mi sit amet mauris.
+    </div>
+    <div *ngSwitchCase="2" style="flex: 1 1 auto; overflow: hidden">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Nibh tellus molestie nunc non blandit massa enim. Diam volutpat commodo sed egestas egestas
+      fringilla phasellus faucibus scelerisque. Vulputate sapien nec sagittis aliquam. Ornare suspendisse sed nisi
+      lacus sed viverra tellus in. Blandit massa enim nec dui nunc. Ut etiam sit amet nisl purus in. Vestibulum lorem
+      sed risus ultricies tristique nulla aliquet enim tortor. Tellus cras adipiscing enim eu turpis. Proin fermentum
+      leo vel orci porta non pulvinar neque laoreet. Turpis cursus in hac habitasse platea dictumst quisque sagittis.
+      Ullamcorper malesuada proin libero nunc consequat. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Eu
+      lobortis elementum nibh tellus molestie nunc non blandit. Nullam ac tortor vitae purus. Nunc faucibus a
+      pellentesque sit amet porttitor eget dolor morbi. Elementum nibh tellus molestie nunc non blandit massa. Diam
+      maecenas sed enim ut sem viverra aliquet eget. Sit amet tellus cras adipiscing. Sit amet nisl purus in mollis
+      nunc sed. Sed vulputate mi sit amet mauris.
+    </div>
+    <div *ngSwitchCase="3" style="flex: 1 1 0%; overflow: hidden">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Nibh tellus molestie nunc non blandit massa enim. Diam volutpat commodo sed egestas egestas
+      fringilla phasellus faucibus scelerisque. Vulputate sapien nec sagittis aliquam. Ornare suspendisse sed nisi
+      lacus sed viverra tellus in. Blandit massa enim nec dui nunc. Ut etiam sit amet nisl purus in. Vestibulum lorem
+      sed risus ultricies tristique nulla aliquet enim tortor. Tellus cras adipiscing enim eu turpis. Proin fermentum
+      leo vel orci porta non pulvinar neque laoreet. Turpis cursus in hac habitasse platea dictumst quisque sagittis.
+      Ullamcorper malesuada proin libero nunc consequat. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Eu
+      lobortis elementum nibh tellus molestie nunc non blandit. Nullam ac tortor vitae purus. Nunc faucibus a
+      pellentesque sit amet porttitor eget dolor morbi. Elementum nibh tellus molestie nunc non blandit massa. Diam
+      maecenas sed enim ut sem viverra aliquet eget. Sit amet tellus cras adipiscing. Sit amet nisl purus in mollis
+      nunc sed. Sed vulputate mi sit amet mauris.
+    </div>
+  </div>
+</div>
